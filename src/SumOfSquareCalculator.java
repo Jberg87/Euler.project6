@@ -5,6 +5,11 @@ public class SumOfSquareCalculator {
 
     int sumOfSquares;
 
+    public SumOfSquareCalculator(int naturalNumber) {
+        calculateSumOfSquares(naturalNumber);
+    }
+
+
     private void calculateSumOfSquares(int naturalNumber) {
         for (int i = 1; i <= naturalNumber; i++)
         sumOfSquares = (int) (sumOfSquares + Math.pow(i, 2));
@@ -14,7 +19,4 @@ public class SumOfSquareCalculator {
         return sumOfSquares;
     }
 
-    public SumOfSquareCalculator(int naturalNumber) {
-        calculateSumOfSquares(naturalNumber);
-    }
 }

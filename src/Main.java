@@ -6,6 +6,7 @@ public class Main {
         int naturalNumber = 100;
         int sumOfSquares;
         int squareOfSum;
+
         SumOfSquareCalculator sumOfSquareCalculator = new SumOfSquareCalculator(naturalNumber);
         SquareOfSumCalculator squareOfSumCalculator = new SquareOfSumCalculator(naturalNumber);
 

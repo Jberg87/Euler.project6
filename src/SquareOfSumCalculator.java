@@ -3,9 +3,6 @@
  */
 public class SquareOfSumCalculator {
 
-    public int getSquareOfSum() {
-        return squareOfSum;
-    }
 
     int squareOfSum;
 
@@ -20,4 +17,9 @@ public class SquareOfSumCalculator {
         }
         squareOfSum = (int) Math.pow(sum, 2);
     }
+
+    public int getSquareOfSum() {
+        return squareOfSum;
+    }
+
 }
